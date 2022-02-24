@@ -1,0 +1,31 @@
+{
+  "name": "web-exo",
+  "version": "1.0.0",
+  "description": "a simple boiler plate for webpack configuration",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --mode development",
+    "start": "webpack serve --open 'Firefox'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KABIKA681/webpack.git"
+  },
+  "keywords": [],
+  "author": "Jaman Dedy, Gilles Kagarama <jeandedieuam@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KABIKA681/webpack/issues"
+  },
+  "homepage": "https://github.com/KABIKA681/webpack#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
